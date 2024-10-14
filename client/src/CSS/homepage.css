@@ -1,0 +1,99 @@
+.homepage{
+    text-align: center;
+    background-image: url('Gym.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: auto;
+}
+.main{
+    margin-top: 100px;
+    width: auto;
+    height: 450px;
+    backdrop-filter: blur(10px);
+}
+.homepage #lh2{
+    color: rgb(38, 177, 177);
+}
+.hz{
+    width: auto;
+    height: 180px;
+    flex: content;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 0px;
+}
+.hz h1{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 40px;
+    color: rgb(138, 83, 186);
+    font-style: oblique;
+    text-decoration: underline;
+}
+.homepage .p p{
+    color: rgb(238, 242, 214);
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 260px;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 3px;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+}
+.h{
+    color:rgb(228, 233, 198);
+}
+.hz img{
+    width: 130px;
+    height: 130px;
+    margin-right: 325px;
+    margin-top: -600px;
+}
+.homepage button{
+    width: 130px;
+    height: 45px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: rgb(69, 67, 67);
+    border-radius: 8px;
+    border-width: 0.2px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.homepage button:hover{
+    background-color: rgb(6, 94, 195);
+    color: white;
+    cursor: pointer;
+    width: 130px;
+    height: 45px;
+    box-shadow: 7px 7px 10px rgb(241, 239, 239);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .homepage {
+        background-size: contain;
+    }
+    .main {
+        margin-top: 50px;
+        height: auto;
+    }
+    .homepage .p p {
+        font-size: 18px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .homepage button {
+        width: 90%;
+        font-size: 16px;
+    }
+}

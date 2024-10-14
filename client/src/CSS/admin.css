@@ -1,0 +1,191 @@
+.admin{
+    text-align: center;
+    background-image: url('Gym.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: auto;
+}
+.success-message h3{
+    color: antiquewhite;
+    font-size: 20px;
+}
+.ad{
+    color: antiquewhite;
+    font-size: 20px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ibox{
+    width: 350px;
+    height: 660px;
+    padding: 10px;
+    border: solid;
+    overflow:auto;
+    backdrop-filter: blur(15px);
+    border-color: black;
+    border-width: 0.4px;
+    border-radius: 20px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #d4cfcf; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #6b6868; 
+}
+.info .ibox:hover{
+    box-shadow: 15px -10px 25px  rgb(241, 239, 239);
+}
+.ibox input{
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    margin: 10px;
+    border: solid;
+    border-radius: 10px;
+    border-width: 0.4px;
+    caret-color: rgb(202, 107, 228);
+    border-color: rgb(124, 154, 164);
+    font-size: 15px;
+}
+.ibox h3,h4,p{
+    color: rgb(255, 255, 255);
+}
+#addmember button{
+    padding: 10px;
+    border: solid;
+    border-radius: 15px;
+    border-width: 0.4px;
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: rgb(243, 234, 224);
+}
+#addmember button:hover{
+    background-color: rgb(158, 188, 220);
+    box-shadow: 10px 10px 10px rgb(241, 239, 239);
+}
+#searchmember button{
+    border: solid;
+    border-radius: 15px;
+    border-width: 0.4px;
+    padding: 8px;
+    margin: 5px;
+    font-size: 15px;
+    background-color: rgb(243, 234, 224);
+}
+#searchmember button:hover{
+    background-color: rgb(158, 188, 220);
+    box-shadow: 10px 10px 10px rgb(241, 239, 239);
+}
+#addsupplement button{
+    border: solid;
+    border-radius: 15px;
+    border-width: 0.4px;
+    padding: 8px;
+    font-size: 15px;
+    background-color: rgb(243, 234, 224);
+}
+#addsupplement button:hover{
+    background-color: rgb(158, 188, 220);
+    box-shadow: 10px 10px 10px rgb(241, 239, 239);
+}
+.dwnldmbr{
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+}
+.dwnldmbr button{
+    border: solid;
+    border-radius: 15px;
+    border-width: 0.4px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(243, 234, 224);
+}
+.dwnldmbr button:hover{
+    background-color: rgb(93, 153, 217);
+    box-shadow: 10px 10px 10px rgb(241, 239, 239);
+}
+.pagination button.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.pagination button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: solid;
+    border-width: 0.4px;
+}
+.mbrlist {
+    width: auto;
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    backdrop-filter: blur(15px);
+}
+.mbrlist ol{
+    color: aliceblue;
+}
+#embtn , #dmbtn{
+    border: solid;
+    border-radius: 15px;
+    border-width: 0.4px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(243, 234, 224);
+}
+#embtn:hover{
+    background-color: rgb(172, 214, 172);
+    box-shadow: 10px 10px 10px rgb(241, 239, 239);
+}
+#dmbtn:hover{
+    background-color: rgb(243, 86, 86);
+    box-shadow: 10px 10px 10px rgb(241, 239, 239);
+}
+#heading{
+    color: rgb(255, 255, 255);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .admin {
+        background-size: contain;
+        flex-direction: column;
+        margin: 0;
+    }
+    .ibox {
+        width: 90%;
+        height: auto;
+    }
+    .info {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ibox input {
+        width: 90%;
+        height: auto;
+    }
+    #addmember button, #searchmember button, #addsupplement button, #embtn, #dmbtn {
+        width: 90%;
+    }
+    .pagination button {
+        padding: 5px;
+        font-size: 12px;
+    }
+}

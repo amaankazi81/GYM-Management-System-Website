@@ -1,0 +1,79 @@
+.head{
+    width: auto;
+    height: 131px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px,0px;
+    text-align: center;
+    display: flex;
+}
+.hl{
+    width: 100%;
+    height: 100%;
+    color: rgb(138, 83, 186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: oblique;
+    text-decoration: underline;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+.hl img{
+    width: 130px;
+    height: 130px;
+}
+#hm p{
+    color: rgb(138, 83, 186);
+}
+.dav{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 20px ;
+}
+.dav :link{
+    text-decoration: none;
+}
+.dav p:hover{
+    text-decoration: underline;
+    font-size: 20.5px;
+}
+.dav button{
+    width: 80px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: darkslategray;
+    border-radius: 12px;
+    border-width: 0.2px;
+    font-size: 15px;
+}
+.dav button:hover{
+    background-color: rgb(189, 150, 224);
+    box-shadow: 7px 7px 10px rgb(241, 239, 239);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .head {
+        flex-direction: column;
+        height: auto;
+    }
+    .hl {
+        font-size: 12px;
+        margin-left: 0;
+    }
+    .dav {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .dav button {
+        width: 90%;
+        font-size: 12px;
+    }
+}

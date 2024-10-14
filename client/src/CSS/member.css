@@ -1,0 +1,75 @@
+.member{
+    text-align: center;
+    background-image: url('Gym.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+.bill{
+    width: 110vh;
+    height: 750px;
+    margin-top: 0px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 17px;
+    padding: 10px;
+    margin: auto    ;
+    backdrop-filter: blur(15px);
+    border: solid;
+    border-width: 0.4px;
+    border-radius: 20px;
+    border-color: rgb(80, 79, 79);
+    font-size: 20px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #d4cfcf; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #6b6868; 
+}
+.bill li{
+    margin-top: 10px;
+    margin:10px;
+    padding: 5px;
+    list-style: none;
+}
+.notifications button{
+    border: solid;
+    border-radius: 15px;
+    border-width: 0.4px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    background-color: rgb(243, 234, 224);
+}
+.notifications button:hover{
+    background-color: rgb(142, 219, 139);
+    box-shadow: 10px 10px 10px rgb(241, 239, 239);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .member {
+        background-size: contain;
+    }
+    .bill {
+        width: 90%;
+        height: auto;
+    }
+    .notifications button {
+        width: 90%;
+    }
+}
