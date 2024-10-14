@@ -84,23 +84,30 @@ git clone https://github.com/yourusername/gym-management-system.git
 cd gym-management-system
 Install dependencies for both client and server:
 
-bash
-Copy code
+bash:
+
 npm install
+
 cd client
+
 npm install
+
 Start the backend server:
 
-bash
-Copy code
+bash:
+
 cd server
+
 npm start
+
 Start the frontend:
 
-bash
-Copy code
+bash:
+
 cd client
+
 npm start
+
 Access the application:
 
 Navigate to http://localhost:3000 to view the frontend.
