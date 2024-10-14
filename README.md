@@ -6,12 +6,13 @@ The Gym Management System is a Full-Stack Web Application developed to streamlin
 **Features**
 
 Login System: Secure login for both admins and members using email and password.
-Admin Dashboard:
-Add, search, edit, and delete members.
+
+Admin Dashboard: Add, search, edit, and delete members.
 Send fee reminders via notifications to members.
 Assign diet plans to members.
 Add and manage supplements.
 View all members and download a CSV file of the member list.
+
 Member Dashboard:
 View bills and notifications.
 Mark notifications as read.
