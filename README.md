@@ -112,6 +112,7 @@ npm start
 Access the application:
 
 Navigate to http://localhost:3000 to view the frontend.
+
 The backend server will run on http://localhost:5000.
 
 **Database Setup**
