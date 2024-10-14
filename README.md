@@ -64,8 +64,11 @@ Members have the ability to mark notifications as read for easier management.
 
 
 **Tech Stack**
+
 *Frontend:* React, HTML, CSS
+
 *Backend:* Node.js, Express
+
 *Database:* Firestore
 
 
