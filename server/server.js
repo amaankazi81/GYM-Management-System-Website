@@ -5,7 +5,7 @@ const admin = require('firebase-admin');
 const { Parser } = require('json2csv');
 
 //Initialize Firebase Admin SDK (backend Firebase services)
-const serviceAccount = require('./gym-management-system-6b545-firebase-adminsdk-kd0sa-8b30d028e4.json'); 
+const serviceAccount = require('./gym-management-system-6b545-firebase-adminsdk-kd0sa-ae7bdfdceb.json'); 
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
