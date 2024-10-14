@@ -1,6 +1,6 @@
 ****Gym Management System****
 
-The Gym Management System is a full-stack web application developed to streamline the management of gym members, supplements, and notifications. The frontend is built using React, HTML, and CSS, while the backend is powered by Node.js and Express. Firestore is used as the database to store and manage member information, supplements, and notifications.
+The Gym Management System is a Full-Stack Web Application developed to streamline the management of gym members, supplements, and notifications. The frontend is built using React, HTML, and CSS, while the backend is powered by Node.js and Express. Firestore is used as the database to store and manage admin, member information, supplements, and notifications.
 
 **Features**
 
@@ -101,7 +101,7 @@ The backend server will run on http://localhost:5000.
 
 This project uses Firestore as the database. You will need to set up a Firebase project and configure Firestore to store member, supplement, and notification data. Download firebase-admin-sdk.json file from *Service Account* of Firebase Project Setting and Add it to Server Folder.
 
-License
+**License**
 
 This project is licensed under the MIT License.
 
