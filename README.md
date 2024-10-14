@@ -2,6 +2,7 @@
 
 The Gym Management System is a Full-Stack Web Application developed to streamline the management of gym members, supplements, and notifications. The frontend is built using React, HTML, and CSS, while the backend is powered by Node.js and Express. Firestore is used as the database to store and manage admin, member information, supplements, and notifications.
 
+
 **Features**
 
 Login System: Secure login for both admins and members using email and password.
@@ -15,7 +16,8 @@ Member Dashboard:
 View bills and notifications.
 Mark notifications as read.
 
-**Project Workflow**
+
+**Project Workflow :**
 
 **Home Page:**
 
@@ -26,12 +28,14 @@ Redirects users to the login page for further access.
 
 ![2](https://github.com/user-attachments/assets/48f44c7f-cfff-4d5b-88d3-51381841b482)
 
+
 **Login Page:**
 
 Users (admin or member) log in using their email and password.
 Based on their role, they are directed to either the admin page or member page.
 
 ![3](https://github.com/user-attachments/assets/c096ae49-552f-4f13-8652-c61d5370e27f)
+
 
 **Admin Page:**
 
@@ -50,6 +54,7 @@ There's a feature to view all members and download a CSV file of the members' li
 
 ![7](https://github.com/user-attachments/assets/984184bb-3f7d-4bc7-80b9-b5bc74399734)
 
+
 **Member Page:**
 
 Once logged in, members can view their billing information and notifications.
@@ -62,6 +67,7 @@ Members have the ability to mark notifications as read for easier management.
 *Frontend:* React, HTML, CSS
 *Backend:* Node.js, Express
 *Database:* Firestore
+
 
 **Installation and Setup Instructions**
 
