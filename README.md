@@ -61,6 +61,7 @@ There's a feature to view all members and download a CSV file of the members' li
 Once logged in, members can view their billing information and notifications.
 Members have the ability to mark notifications as read for easier management.
 ![9](https://github.com/user-attachments/assets/8b80835b-6c41-42f1-8710-1452e73da314)
+
 ![10](https://github.com/user-attachments/assets/a43ad2e5-cb5e-4162-a6f6-4dc0cd96864c)
 
 
@@ -81,7 +82,7 @@ Members have the ability to mark notifications as read for easier management.
 
 bash
 Copy code
-git clone https://github.com/yourusername/gym-management-system.git
+git clone https://github.com/amaankazi81/GYM-Management-System-Website.git
 cd gym-management-system
 Install dependencies for both client and server:
 
