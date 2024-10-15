@@ -118,7 +118,7 @@ npm start
 
 Access the application:
 
-Navigate to http://localhost:3000 to view the frontend.
+The frontend will run on http://localhost:3000.
 
 The backend server will run on http://localhost:5000.
 
