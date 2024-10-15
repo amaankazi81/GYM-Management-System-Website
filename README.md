@@ -88,7 +88,7 @@ bash
 
 git clone https://github.com/amaankazi81/GYM-Management-System-Website.git
 
-cd gym-management-system
+cd GYM-Management-System-Website
 
 Install dependencies for both client and server:
 
