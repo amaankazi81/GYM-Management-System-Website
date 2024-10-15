@@ -77,7 +77,8 @@ Members have the ability to mark notifications as read for easier management.
 
 **Installation and Setup Instructions**
 
-**Note:** You should download your own firebase-admin-sdk.json file from *Service Accout* of Firebase and add it to server folder of the project o else it will show error.
+**Note:** You should download your own firebase-admin-sdk.json file from *Service Accout* of Firebase and add it to server folder of the project or else it will show error. And also add user manually on Firebase authentication for Login Purpose.
+
 
 **Clone the repository:**
 
