@@ -5,7 +5,7 @@ The Gym Management System is a Full-Stack Web Application developed to streamlin
 
 **Features**
 
-Login System: Secure login for both admins and members using email and password.
+Login System: Secure login for both admins and members using email and password using Firebase Autentication adding manually mail and passwords.
 
 Admin Dashboard: Add, search, edit, and delete members.
 Send fee reminders via notifications to members.
@@ -77,7 +77,7 @@ Members have the ability to mark notifications as read for easier management.
 
 **Installation and Setup Instructions**
 
-**Note:** You should download your own firebase-admin-sdk.json file from *Service Accout* of Firebase and add it to server folder of the project or else it will show error. And also add user manually on Firebase authentication for Login Purpose.
+**Note:** You should download your own firebase-admin-sdk.json file from *Service Accout* of Firebase and add it to server folder and give path in server.js file (ln:8) of the project or else it will show error. And also add user manually on Firebase authentication for Login Purpose.
 
 Gym admin have only 2 mails in this project as mentioned in client/src/components/Login.js , ln:53, so setup mails and password manually and update the mentioned path code.
 
