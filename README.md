@@ -106,7 +106,7 @@ bash:
 
 cd server
 
-npm start
+node server
 
 Start the frontend:
 
