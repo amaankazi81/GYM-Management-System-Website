@@ -5,7 +5,7 @@ The Gym Management System is a Full-Stack Web Application developed to streamlin
 
 **Features**
 
-Login System: Secure login for both admins and members using email and password using Firebase Autentication adding manually mail and passwords.
+Login System: Secure login for both admins and members using email and password using Firebase Authentication adding manually mail and passwords.
 
 Admin Dashboard: Add, search, edit, and delete members.
 Send fee reminders via notifications to members.
