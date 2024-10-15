@@ -79,6 +79,8 @@ Members have the ability to mark notifications as read for easier management.
 
 **Note:** You should download your own firebase-admin-sdk.json file from *Service Accout* of Firebase and add it to server folder of the project or else it will show error. And also add user manually on Firebase authentication for Login Purpose.
 
+Gym admin have only 2 mails in this project as mentioned in client/src/components/Login.js , ln:53, so setup mails and password manually and update the mentioned path code.
+
 
 **Clone the repository:**
 
