@@ -81,9 +81,11 @@ Members have the ability to mark notifications as read for easier management.
 **Clone the repository:**
 
 bash
-Copy code
+
 git clone https://github.com/amaankazi81/GYM-Management-System-Website.git
+
 cd gym-management-system
+
 Install dependencies for both client and server:
 
 bash:
@@ -118,7 +120,7 @@ The backend server will run on http://localhost:5000.
 
 **Database Setup**
 
-This project uses Firestore as the database. You will need to set up a Firebase project and configure Firestore to store member, supplement, and notification data. Download firebase-admin-sdk.json file from *Service Account* of Firebase Project Setting and Add it to Server Folder.
+This project uses Firestore as the database. You will need to set up a Firebase project and configure Firestore to store member, supplement, and notification data. Add user gmail and password manually in Firebase Authentication so that user can login. Download firebase-admin-sdk.json file from *Service Account* of Firebase Project Setting and Add it to Server Folder.
 
 **License**
 
