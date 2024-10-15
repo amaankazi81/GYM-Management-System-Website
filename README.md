@@ -122,6 +122,8 @@ Navigate to http://localhost:3000 to view the frontend.
 
 The backend server will run on http://localhost:5000.
 
+Frontend Demo of the Project: https://gym-management-system-website-efru.vercel.app/
+
 **Database Setup**
 
 This project uses Firestore as the database. You will need to set up a Firebase project and configure Firestore to store member, supplement, and notification data. Add user gmail and password manually in Firebase Authentication so that user can login. Download firebase-admin-sdk.json file from *Service Account* of Firebase Project Setting and Add it to Server Folder.
