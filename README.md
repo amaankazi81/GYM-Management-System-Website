@@ -40,7 +40,7 @@ Based on their role, they are directed to either the admin page or member page.
 
 **Admin Page:**
 
-After login, the admin can add members, search for a member by email, view and edit member details, delete a member, and send notifications.
+After login, the admin can add members, search for a member by email, view and edit member details, delete a member, assign diet plans to members and send notifications.
 Admins can also add supplements and view all available supplements.
 
 ![4](https://github.com/user-attachments/assets/8cd58e5a-3d7a-4412-a8a0-fdeed7740453)
