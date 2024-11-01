@@ -81,14 +81,13 @@ Members have the ability to mark notifications as read for easier management.
 
 Gym admin have only 2 mails in this project as mentioned in client/src/components/Login.js , ln:53, so setup mails and password manually and update the mentioned path code.
 
-
 1. **Clone the repository:**
-  ```bash
-  git clone https://github.com/amaankazi81/GYM-Management-System-Website.git
-  cd GYM-Management-System-Website
+    ```bash
+    git clone https://github.com/amaankazi81/GYM-Management-System-Website.git
+    cd GYM-Management-System-Website
 
 2. **Install dependencies for both client and server:**
-  ```bash:
+    ```bash:
     npm install
 
     cd client
@@ -96,18 +95,16 @@ Gym admin have only 2 mails in this project as mentioned in client/src/component
     npm install
 
 3. **Start the backend server:**
+    ```bash
+    cd server
 
-  ```bash
-  cd server
-
-  node server
+    node server
 
 4. **Start the frontend:**
+    ```bash
+    cd client
 
-  ```bash
-  cd client
-
-  npm start
+    npm start
 
 Access the application:
 
