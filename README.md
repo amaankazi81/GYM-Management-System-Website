@@ -1,4 +1,4 @@
-##Gym Management System
+#Gym Management System
 
 The Gym Management System is a Full-Stack Web Application developed to streamline the management of gym members, supplements, and notifications. The frontend is built using React, HTML, and CSS, while the backend is powered by Node.js and Express. Firestore is used as the database to store and manage admin, member information, supplements, and notifications.
 
