@@ -1,9 +1,9 @@
-**Gym Management System**
+## Gym Management System
 
 The Gym Management System is a Full-Stack Web Application developed to streamline the management of gym members, supplements, and notifications. The frontend is built using React, HTML, and CSS, while the backend is powered by Node.js and Express. Firestore is used as the database to store and manage admin, member information, supplements, and notifications.
 
 
-**Features**
+## Features
 
 Login System: Secure login for both admins and members using email and password using Firebase Authentication adding manually mail and passwords.
 
@@ -18,7 +18,7 @@ View bills and notifications.
 Mark notifications as read.
 
 
-**Project Workflow :**
+## Project Workflow :
 
 **Home Page:**
 
@@ -66,7 +66,7 @@ Members have the ability to mark notifications as read for easier management.
 ![10](https://github.com/user-attachments/assets/a43ad2e5-cb5e-4162-a6f6-4dc0cd96864c)
 
 
-**Tech Stack**
+## Tech Stack
 
 *Frontend:* React, HTML, CSS
 
@@ -75,7 +75,7 @@ Members have the ability to mark notifications as read for easier management.
 *Database:* Firestore
 
 
-**Installation and Setup Instructions**
+## Installation and Setup Instructions
 
 **Note:** You should download your own firebase-admin-sdk.json file from *Service Accout* of Firebase and add it to server folder and give path in server.js file (ln:8) of the project or else it will show error. And also add user manually on Firebase authentication for Login Purpose.
 
@@ -83,17 +83,12 @@ Gym admin have only 2 mails in this project as mentioned in client/src/component
 
 
 1. **Clone the repository:**
-
   ```bash
-
   git clone https://github.com/amaankazi81/GYM-Management-System-Website.git
-
   cd GYM-Management-System-Website
 
 2. **Install dependencies for both client and server:**
-
   ```bash:
-
     npm install
 
     cd client
@@ -103,7 +98,6 @@ Gym admin have only 2 mails in this project as mentioned in client/src/component
 3. **Start the backend server:**
 
   ```bash
-
   cd server
 
   node server
@@ -111,7 +105,6 @@ Gym admin have only 2 mails in this project as mentioned in client/src/component
 4. **Start the frontend:**
 
   ```bash
-
   cd client
 
   npm start
