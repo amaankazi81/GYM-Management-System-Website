@@ -1,9 +1,9 @@
-#Gym Management System
+**Gym Management System**
 
 The Gym Management System is a Full-Stack Web Application developed to streamline the management of gym members, supplements, and notifications. The frontend is built using React, HTML, and CSS, while the backend is powered by Node.js and Express. Firestore is used as the database to store and manage admin, member information, supplements, and notifications.
 
 
-##Features
+**Features**
 
 Login System: Secure login for both admins and members using email and password using Firebase Authentication adding manually mail and passwords.
 
@@ -66,7 +66,7 @@ Members have the ability to mark notifications as read for easier management.
 ![10](https://github.com/user-attachments/assets/a43ad2e5-cb5e-4162-a6f6-4dc0cd96864c)
 
 
-##Tech Stack
+**Tech Stack**
 
 *Frontend:* React, HTML, CSS
 
@@ -75,7 +75,7 @@ Members have the ability to mark notifications as read for easier management.
 *Database:* Firestore
 
 
-##Installation and Setup Instructions
+**Installation and Setup Instructions**
 
 **Note:** You should download your own firebase-admin-sdk.json file from *Service Accout* of Firebase and add it to server folder and give path in server.js file (ln:8) of the project or else it will show error. And also add user manually on Firebase authentication for Login Purpose.
 
@@ -100,21 +100,21 @@ Gym admin have only 2 mails in this project as mentioned in client/src/component
 
     npm install
 
-Start the backend server:
+3. **Start the backend server:**
 
-bash:
+  ```bash
 
-cd server
+  cd server
 
-node server
+  node server
 
-Start the frontend:
+4. **Start the frontend:**
 
-bash:
+  ```bash
 
-cd client
+  cd client
 
-npm start
+  npm start
 
 Access the application:
 
